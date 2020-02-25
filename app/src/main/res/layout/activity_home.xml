@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgp"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:onClick="gotoAttendanceReport"
+        android:text="Student Report"
+
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Student Data Upload"
+        android:onClick="nextpg1"
+        android:layout_gravity="center"
+        android:id="@+id/button2"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Mark Attendance"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:onClick="nextpg2"
+        android:id="@+id/button3"
+
+        />
+
+
+</LinearLayout>

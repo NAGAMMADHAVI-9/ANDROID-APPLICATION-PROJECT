@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65062148655",
+    "firebase_url": "https://stenattadanceregister2020.firebaseio.com",
+    "project_id": "stenattadanceregister2020",
+    "storage_bucket": "stenattadanceregister2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65062148655:android:1deb82d8e026dc4e4744da",
+        "android_client_info": {
+          "package_name": "com.example.stenattadanceregister2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65062148655-ecch8hrvilp9f7ujokng9729tnc0fk7k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.stenattadanceregister2020",
+            "certificate_hash": "f0b6bc79d9e856cfa6a73115cafb401f03219934"
+          }
+        },
+        {
+          "client_id": "65062148655-t3lg0lc7lhq725go58n40cv8mf0f1t2c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuabn39Fdo5r_YhCjdmaqOEb2AEjMXXUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65062148655-t3lg0lc7lhq725go58n40cv8mf0f1t2c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

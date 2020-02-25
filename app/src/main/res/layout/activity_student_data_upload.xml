@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgp"
+
+    tools:context=".StudentDataUpload">
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="RollNo:"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/studentrollno"
+        android:textColor="#054E48"
+        android:background="@drawable/bg_editext"
+
+        />
+
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:id="@+id/studentname"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="MobileNumber:"
+        android:inputType="number"
+        android:id="@+id/studentmobileno"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="EmailId:"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/branches"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/branch"
+
+        />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/years"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/year"
+        />
+
+    <Spinner
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/sections"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/bg_editext"
+        android:layout_gravity="center"
+        android:id="@+id/section"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:onClick="submit"
+        android:text="Submit"
+        android:layout_marginBottom="110dp"
+
+
+        />
+
+
+</LinearLayout>
+    </ScrollView>
