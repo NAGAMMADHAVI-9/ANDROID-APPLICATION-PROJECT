@@ -5,15 +5,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgp"
+    android:background="#FAFBFA"
     android:orientation="vertical"
     tools:context=".Home">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"
+        />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="200dp"
+        android:background="@drawable/shape2"
         android:layout_gravity="center"
         android:onClick="gotoAttendanceReport"
         android:text="Student Report"
@@ -24,6 +31,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
+        android:background="@drawable/shape2"
         android:text="Student Data Upload"
         android:onClick="nextpg1"
         android:layout_gravity="center"
@@ -33,6 +41,7 @@
     <Button
         android:layout_width="350dp"
         android:layout_height="wrap_content"
+        android:background="@drawable/shape2"
         android:text="Mark Attendance"
         android:layout_marginTop="15dp"
         android:layout_gravity="center"

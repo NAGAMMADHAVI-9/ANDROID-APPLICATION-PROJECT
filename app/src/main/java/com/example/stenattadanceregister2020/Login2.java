@@ -24,7 +24,7 @@ public class Login2 extends AppCompatActivity {
     {
         String username = et_1.getText().toString();
         String password = et_2.getText().toString();
-        if(username.equals("2") && password.equals("2")){
+        if(username.equals("faculty") && password.equals("faculty1")){
             Intent i=new Intent(this,PostingAttendance.class);
             startActivity(i);
 

@@ -24,7 +24,7 @@ public class LoginPage extends AppCompatActivity {
     {
         String username = et_1.getText().toString();
         String password = et_2.getText().toString();
-        if(username.equals("") && password.equals("")){
+        if(username.equals("admin") && password.equals("admin")){
 
             Intent i=new Intent(this,StudentDataUpload.class);
             startActivity(i);

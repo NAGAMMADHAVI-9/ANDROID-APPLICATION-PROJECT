@@ -1,39 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_width="match_parent"
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
 <LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgp"
+    android:background="#0BAFC9"
 
     android:orientation="vertical"
 
     tools:context=".MainActivity">
 
-    <ImageView
-        android:id="@+id/imagelogo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-         android:layout_gravity="center"
-        android:src="@drawable/stenlogo"
-
-        />
-
-    <ViewFlipper
-        android:id="@+id/v_flipper"
-        android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-       >
-
-    </ViewFlipper>
 
     <Button
         android:layout_width="330dp"

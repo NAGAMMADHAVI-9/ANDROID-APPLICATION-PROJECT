@@ -8,7 +8,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bgp"
+    android:background="#F8F9FA"
 
     tools:context=".PostingAttendance">
 
@@ -70,7 +70,7 @@
           android:layout_height="wrap_content"
           android:hint="date"
           android:textSize="25sp"
-          android:textColor="#EC0404"
+          android:textColor="#0C0C0C"
           android:textStyle="bold"
           android:layout_marginTop="20dp"
           android:id="@+id/date"
